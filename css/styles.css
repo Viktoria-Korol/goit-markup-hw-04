@@ -3,12 +3,10 @@ font-family: 'Raleway',
 sans-serif;
 font-family: 'Roboto',
 sans-serif; */
-
 /* ОСНОВНІ ВЛАСТИВОСТІ*/
 .page-header {
     font-weight: 500;
 }
-
 
 :root {
     --basic-color: #212121;
@@ -41,17 +39,14 @@ address {
 
 a {
     text-decoration: none;
-
 }
 
 .container {
-
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 .section .no-padding {
@@ -63,7 +58,6 @@ a {
     min-width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 /*СБРОС*/
@@ -93,7 +87,6 @@ img {
     height: auto;
 }
 
-
 /* ШАПКА */
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -113,11 +106,8 @@ img {
     align-items: center;
 }
 
-
-
 /*ЛОГОТИП*/
 .logo {
-
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -154,7 +144,6 @@ nav.flex-container {
 
 .nav-item {
     line-height: 0;
-
 }
 
 .site-nav {
@@ -168,7 +157,6 @@ nav.flex-container {
 
 .site-nav .link {
     display: flex;
-
     color: var(--basic-color);
     font-weight: 500;
     line-height: 1.14;
@@ -187,7 +175,6 @@ nav.flex-container {
     color: var(--basic-color);
 }
 
-
 .header .nav-contacts {
     margin-left: auto;
     color: inherit;
@@ -196,9 +183,7 @@ nav.flex-container {
     align-items: center;
 }
 
-
 /*КОНТАКТИ*/
-
 .contacts-header .link {
     color: var(--contacts-and-paragraph-color);
     font-weight: 500;
@@ -222,15 +207,11 @@ nav.flex-container {
 }
 
 .contacts-header {
-
     display: flex;
     justify-content: flex-end;
-
 }
 
-
 .header-tel {
-
     padding-left: 50px;
 }
 
@@ -241,7 +222,6 @@ nav.flex-container {
     fill: var(--contacts-and-paragraph-color);
 }
 
-
 .nav-contacts:hover,
 .nav-contacts:focus {
     fill: var(--accent-color);
@@ -249,7 +229,6 @@ nav.flex-container {
 
 .site-nav .item {
     margin-right: 50px;
-
 }
 
 .site-nav .item:last-child {
@@ -260,10 +239,7 @@ nav.flex-container {
     margin-right: 50px;
 }
 
-
 /* ЗАГОЛОВОК ГЕРОЙ */
-
-
 .banner {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images1/hero/slider-img1.png);
     background-color: var(--background-hero-and-footer);
@@ -272,8 +248,6 @@ nav.flex-container {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 .banner .hero-title {
     color: var(--white-color);
@@ -286,16 +260,8 @@ nav.flex-container {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-
 }
 
-/*
-.hero-wrapper {
-    background-color: var(--background-hero-and-footer);
-    padding: 200px 200px;
-    height: 600px;
-    text-align: center;
-}*/
 
 .button-hero {
 
@@ -342,15 +308,12 @@ nav.flex-container {
 }
 
 .benefits-item {
-
     margin-left: 30px;
 }
 
 .description {
-
     color: var(--contacts-and-paragraph-color);
     line-height: 1.7;
-
 }
 
 .title-about .team-member {
@@ -360,18 +323,15 @@ nav.flex-container {
 
 .title-about {
     padding-bottom: 10px;
-
     color: var(--basic-color);
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
 }
 
-
 /* ЧИМ ЗАЙМАЄМОСЯ */
 .section-works {
     padding-bottom: 94px;
-
 }
 
 .section-title {
@@ -397,19 +357,15 @@ nav.flex-container {
 }
 
 /* НАША КОМАНДА */
-
-
 .benefits-svg {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px 100px;
-
     margin-bottom: 30px;
     border-radius: 4px;
     background-color: #F5F4FA;
 }
-
 
 .section-team {
     padding-top: 94px;
@@ -439,7 +395,6 @@ nav.flex-container {
 .team-card-content {
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 .team-member {
@@ -449,7 +404,6 @@ nav.flex-container {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-
 }
 
 .job-education {
@@ -459,16 +413,13 @@ nav.flex-container {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-
 }
 
 .team-card {
-
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
 
 .section-team {
     background-color: var(--secondary-bg-color);
@@ -479,7 +430,6 @@ nav.flex-container {
     margin: 0;
     list-style: none;
     display: flex;
-
 }
 
 .team-card-social {
@@ -487,7 +437,6 @@ nav.flex-container {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
-
 }
 
 .social-item {
@@ -495,7 +444,6 @@ nav.flex-container {
     justify-content: center;
     align-items: center;
 }
-
 
 .social-link:hover,
 .social-link:focus {
@@ -505,7 +453,6 @@ nav.flex-container {
 
 .social-item.item:not(:last-child) {
     margin-right: 10px;
-
 }
 
 .social-item {
@@ -521,7 +468,6 @@ nav.flex-container {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-
 }
 
 /*ПОСТІЙНІ КЛІЄНТИ*/
@@ -532,12 +478,11 @@ nav.flex-container {
 
 .clients-item {
     margin-left: 30px;
-
     fill: var(--svg-color);
-
 }
 
 .clients-link {
+    display: block;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -553,25 +498,19 @@ nav.flex-container {
     align-items: center;
 }
 
-
 .clients-link:hover,
 .clients-link:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-
 }
 
-
 /*ПОРТФОЛІО*/
-
 /* ШАПКА ПРОФИЛЯ */
 /* СПИСОК КНОПОК */
-
 .section-portfolio {
     justify-content: center;
     margin-bottom: 50px;
-
     padding-top: 94px;
     margin-bottom: 50px;
 }
@@ -579,16 +518,13 @@ nav.flex-container {
 .nav-prtf-button {
     display: flex;
     justify-content: center;
-
 }
 
 .portfolio-btn {
-
     margin-bottom: 34px;
     padding: 6px 22px;
     border: 4px solid transparent;
     border-radius: 4px;
-
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -599,13 +535,11 @@ nav.flex-container {
 }
 
 .portfolio-item {
-
     padding-left: 8px;
     align-items: center;
 }
 
 .nav-prtf-button {
-
     display: flex;
 }
 
@@ -619,19 +553,13 @@ nav.flex-container {
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-
-
 /* БЛОК З РОБОТАМИ */
-
 .card-set {
     margin-bottom: 30px;
     list-style: none;
     gap: 30px;
-
     display: flex;
     flex-wrap: wrap;
-
-
 }
 
 .card:hover,
@@ -642,15 +570,12 @@ nav.flex-container {
 
 .card-set>.card-item {
     display: flex;
-
 }
 
 .card-content {
     padding: 20px 24px;
     border: 1px solid var(--border-prtf-img);
-
 }
-
 
 .header-cards {
     color: var(--basic-color);
@@ -728,7 +653,6 @@ nav.flex-container {
 .logo-footer {
     display: block;
     margin-bottom: 20px;
-
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -738,7 +662,6 @@ nav.flex-container {
     margin-left: 215px;
     margin-left: 0;
     letter-spacing: 0.06em;
-
 }
 
 .footer {
@@ -748,37 +671,24 @@ nav.flex-container {
 }
 
 .footer-nav {
-
     padding-bottom: 10px;
 }
-
-
-
 
 .footer-studio {
     color: var(--white-color);
 }
-
-
-
-
 
 .section {
     padding-right: 94px;
     padding-left: 94px;
 }
 
-
-
 .social-footer {
-
     margin-left: 70px;
-
 }
 
 .social-footer-title {
     display: flex;
-
     color: var(--white-color);
     font-family: 'Roboto';
     font-weight: 700;
@@ -795,11 +705,9 @@ nav.flex-container {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-
     fill: var(--white-color);
     background: rgba(255, 255, 255, 0.1);
 }
-
 
 .social-footer-link:hover,
 .social-footer-link:focus {
@@ -810,10 +718,8 @@ nav.flex-container {
 .footer-flex-wrapper {
     display: flex;
     align-items: baseline;
-
 }
 
 .social-media {
     margin-top: 20px;
-
 }
